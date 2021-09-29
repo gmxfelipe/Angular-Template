@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O intuito deste projeto foi recriar um prototipo já existente como um template HTMl e transformar em Angular, utilizando componentes e scss como compilador de css principal.
+O intuito deste projeto foi recriar um template HTML já existente em Angular, separando o layout em componentes e utilizando scss como compilador de css principal.
 
 ## 🔖 Layout
 
