@@ -1,0 +1,114 @@
+.options-card {
+  &__card {
+    background: rgb(80, 83, 147);
+    padding: 114px 164px;
+
+    @media only screen and(max-width: 992px) {
+      padding: 63px 47px;
+    }
+
+    @media only screen and(max-width: 526px) {
+      padding: 63px 0;
+    }
+
+    &__title {
+      text-align: center;
+      color: #fff;
+    }
+    hr {
+      border: none;
+      background-color: #464981;
+      height: 3px;
+      width: 43%;
+      display: flex;
+      margin: 30px auto 0 auto;
+    }
+    &__paragraphy {
+      color: #fff;
+      text-align: center;
+      font-weight: 600;
+      margin-top: 30px;
+    }
+    &__elements {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 70px;
+
+      @media only screen and(max-width: 526px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      &__item {
+        background: red;
+        padding: 76px 105px;
+        position: relative;
+
+        @media only screen and(max-width: 992px) {
+          padding: 53px 40px;
+        }
+
+        .fa-paper-plane,
+        .fa-laptop,
+        .fa-code,
+        .fa-headphones,
+        .fa-heart,
+        .fa-flag {
+          color: rgb(125, 252, 205);
+          font-size: 24px;
+          position: absolute;
+          top: 80px;
+          left: 45px;
+
+          @media only screen and(max-width: 992px) {
+            top: 25px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+          }
+        }
+
+        h1 {
+          color: #fff;
+          letter-spacing: 3px;
+          font-size: 26px;
+
+          @media only screen and(max-width: 992px) {
+            margin-top: 20px;
+            text-align: center;
+          }
+        }
+
+        p {
+          color: #cbd4dc;
+          font-weight: 600;
+          margin-top: 19px;
+
+          @media only screen and(max-width: 992px) {
+            text-align: center;
+          }
+        }
+
+        &:nth-child(1) {
+          background: #4d508e;
+        }
+
+        &:nth-child(2) {
+          background: #4a4d89;
+        }
+
+        &:nth-child(3) {
+          background: #484a83;
+        }
+        &:nth-child(4) {
+          background: #45477e;
+        }
+        &:nth-child(5) {
+          background: #42447a;
+        }
+        &:nth-child(6) {
+          background: #3f4175;
+        }
+      }
+    }
+  }
+}

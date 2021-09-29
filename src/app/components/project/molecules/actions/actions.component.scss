@@ -1,0 +1,134 @@
+.actions {
+  margin-top: 40px;
+  .row {
+    @media only screen and(max-width: 992px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .col-6 {
+    @media only screen and(max-width: 992px) {
+      margin-top: 15px;
+    }
+
+    @media only screen and(max-width: 440px) {
+      width: 100%;
+    }
+  }
+  .btn-default {
+    background: #e74832;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .btn-transparent {
+    background: transparent;
+    color: #000;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    letter-spacing: 3px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  &__dfts {
+    margin-top: 10px;
+
+    @media only screen and(max-width: 440px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    button {
+      width: 158px;
+
+      @media only screen and(max-width: 440px) {
+        width: 100% !important;
+      }
+
+      @media only screen and(max-width: 992px) {
+        &:not(:first-child) {
+          margin-top: 10px;
+        }
+      }
+
+      &:nth-child(1) {
+        margin-right: 10px;
+      }
+    }
+  }
+  &__sm {
+    @media only screen and(max-width: 440px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    button {
+      @media only screen and(max-width: 440px) {
+        width: 100% !important;
+      }
+
+      @media only screen and(max-width: 992px) {
+        &:not(:first-child) {
+          margin-top: 10px;
+        }
+      }
+
+      &:nth-child(1) {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    button {
+      @media only screen and(max-width: 440px) {
+        width: 100% !important;
+      }
+
+      @media only screen and(max-width: 992px) {
+        &:not(:first-child) {
+          margin-top: 10px;
+        }
+      }
+      &:not(:first-child) {
+        margin-top: 15px;
+      }
+    }
+    .default {
+      width: 158px;
+    }
+
+    .small {
+      width: 136px;
+    }
+  }
+
+  &__sm {
+    margin-top: 20px;
+    button {
+      width: 136px;
+    }
+  }
+  &__lg {
+    button {
+      width: 416px;
+
+      @media only screen and(max-width: 440px) {
+        width: 100%;
+      }
+
+      &:not(:first-child) {
+        margin-top: 15px;
+      }
+    }
+  }
+}

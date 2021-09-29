@@ -1,0 +1,93 @@
+.header {
+  transition: background-color 0.2s ease;
+  background: #2e3842;
+  height: 3rem;
+  left: 0;
+  line-height: 3rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  display: block;
+
+  h1 {
+    height: inherit;
+    left: 1.25rem;
+    line-height: inherit;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  a {
+    border: 0;
+    display: block;
+    height: inherit;
+    line-height: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__nav {
+    height: inherit;
+    line-height: inherit;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      white-space: nowrap;
+    }
+  }
+
+  &__nav ul li:first-child {
+    margin-left: 0;
+  }
+
+  &__nav ul li {
+    display: inline-block;
+    padding: 0;
+  }
+
+  &__menuToggle {
+    outline: 0;
+    position: relative;
+    border: 0;
+    color: #fff;
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+
+    &:after {
+      content: "";
+      background-image: url(../../../../assets/svg/menu-toggle.svg);
+      background-position: right center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      height: 54px;
+      vertical-align: top;
+      width: 20px;
+      padding-left: 2px;
+    }
+
+    span {
+      color: #fff;
+      letter-spacing: 2px;
+      padding-right: 6px;
+      text-transform: uppercase;
+
+      @media only screen and(max-width: 730px) {
+        display: none;
+      }
+    }
+  }
+}

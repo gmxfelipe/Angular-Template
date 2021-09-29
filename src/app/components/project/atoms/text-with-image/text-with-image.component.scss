@@ -1,0 +1,21 @@
+.paragraph-image {
+  &__image-left {
+    display: block;
+    float: left;
+    border: transparent thin solid;
+    padding: 0 5px 5px 0;
+    margin: 0px 10px 0 0;
+    max-width: 40%;
+    border-radius: 8px;
+  }
+
+  &__image-right {
+    display: block;
+    float: right;
+    border: transparent thin solid;
+    padding: 0 0 5px 5px;
+    margin: 0px 10px 0 0;
+    max-width: 40%;
+    border-radius: 8px;
+  }
+}

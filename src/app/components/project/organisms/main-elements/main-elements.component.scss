@@ -1,0 +1,41 @@
+.main {
+  padding: 60px 80px 20px 80px;
+  background-color: #fff;
+  color: #4f4f4f;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @media only screen and(max-width: 740px) {
+    padding: 45px 20px 10px 30px;
+  }
+
+  @media only screen and(max-width: 440px) {
+    padding: 30px 20px 10px 20px;
+  }
+
+  &__container {
+    overflow: hidden;
+    display: block;
+
+    @media only screen and(max-width: 440px) {
+      padding: 0 20px 0 20px;
+    }
+  }
+
+  &__paragraph-with-metag {
+    code {
+      background: #eee;
+      color: #4f4f4f;
+      border-radius: 3px;
+      padding: 0.25rem 0.65rem;
+      font-size: 1rem !important;
+    }
+
+    a {
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+      border-bottom: dotted 1px;
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.images {
+  &__card {
+    display: block;
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  &__card img {
+    width: 100%;
+    border-radius: 3px;
+  }
+}
+

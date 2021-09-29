@@ -1,0 +1,75 @@
+.banner-icon {
+  background-color: #21b2a6;
+  text-align: center;
+  padding: 60px 0 40px 0;
+
+  &__container {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  &__main {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    color: #fff;
+    border-bottom: solid 2px #4b9c92;
+    display: inline-block;
+    padding-bottom: 1em;
+    position: relative;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    @media only screen and(max-width: 992px) {
+      font-size: 16px;
+      line-height: 22px;
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__paragraph {
+    color: #c8ece9;
+    padding-top: 10px;
+    @media only screen and(max-width: 992px) {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__icons {
+    list-style: none;
+
+    li {
+      padding-right: 35px;
+      display: inline-block;
+      @media only screen and(max-width: 992px) {
+      }
+    }
+  }
+
+  .fa-gem,
+  .fa-heart,
+  .fa-code {
+    font-size: 40px;
+    @media only screen and(max-width: 992px) {
+      font-size: 32px;
+    }
+  }
+  .fa-gem {
+    color: #00ffcc;
+  }
+
+  .fa-heart {
+    color: #00f0ff;
+  }
+
+  .fa-code {
+    color: #76ddff;
+  }
+}

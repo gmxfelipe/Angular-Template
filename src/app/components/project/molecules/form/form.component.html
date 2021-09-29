@@ -1,0 +1,55 @@
+<div class="form">
+    <div class="form__container">
+        <app-text-heading title="Form"></app-text-heading>
+        <ul>
+            <li>
+                <input type="text" placeholder="Name">
+            </li>
+            <li>
+                <input type="email" placeholder="Email">
+            </li>
+        </ul>
+        <select name="category" id="category">
+            <option value="category">- Category -</option>
+            <option value="category-1">Category 1</option>
+            <option value="category-2">Category 2</option>
+            <option value="category-3">Category 3</option>
+        </select>
+        <ul class="form__checkbox">
+            <li>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Low
+                </label>
+            </li>
+            <li>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Normal
+                </label>
+            </li>
+            <li>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    High
+                </label>
+            </li>
+        </ul>
+        <ul class="form__check-box">
+            <li>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Email me a copy
+                </label>
+            </li>
+            <li>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Not a robot
+                </label>
+            </li>
+        </ul>
+        <textarea id="story" name="story" rows="5" cols="33" placeholder="Enter your message"></textarea>
+        <app-button text="Enviar"></app-button>
+    </div>
+</div>
