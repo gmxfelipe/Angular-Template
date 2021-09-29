@@ -16,10 +16,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="BeTheHero"  src="https://raw.githubusercontent.com/rocketseat-education/semana-omnistack-11/master/.github/bethehero.png" width="100%">
-</p>
-
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
